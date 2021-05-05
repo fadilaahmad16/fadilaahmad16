@@ -4,7 +4,12 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
-Fadila Ahmad, lahir pada tanggal 16 Maret 1999. 
+# Fadila Ahmad
+halooo
+## Tanggal Lahir
+16 Maret 1999
+## Jenis Kelamin
+Laki-Laki
 
 <!---
 fadilaahmad16/fadilaahmad16 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
