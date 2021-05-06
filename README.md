@@ -10,6 +10,6 @@ Data yang digunakan dalam pembuatan Dashboard Informasi Indeks Pembangunan Manus
 
 Dataset memiliki 6 kolom berupa :
 - `Provinsi/Kabupten/Kota`: Keterangan masing-masing wilayah di Indoensia baik itu tingkat provinsi, kabupaten, maupun kota.
-- `Tahun [4 kolom]`: Isian data dari masing-masing dimensi untuk tahun 2016, 2017, 2018, 2019, dan 2020.
+- `Tahun [5 kolom]`: Isian data dari masing-masing dimensi untuk tahun 2016, 2017, 2018, 2019, dan 2020.
 
 _Data tersebut dapat didownload pada folder [Dataset](https://github.com/fadilaahmad16/fadilaahmad16/tree/main/Dataset)_
