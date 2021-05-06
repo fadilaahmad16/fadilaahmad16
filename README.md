@@ -7,4 +7,4 @@ Data yang digunakan dalam pembuatan Dashboard Informasi Indeks Pembangunan Manus
 * [Harapan Lama Sekolah Tahun 2016-2020](https://bps.go.id/indicator/26/417/1/-metode-baru-harapan-lama-sekolah.html)
 * [Rata-Rata Lama Sekolah Tahun 2016-2020](https://bps.go.id/indicator/26/415/1/-metode-baru-rata-rata-lama-sekolah.html)
 * [Pengeluaran Perkapita Disesuaikan Tahun 2016-2020](https://bps.go.id/indicator/26/416/1/-metode-baru-pengeluaran-per-kapita-disesuaikan.html)
-_Data tersebut dapat didownload pada folder [Dataset]()_
+ _Data tersebut dapat didownload pada folder [Dataset](https://github.com/fadilaahmad16/fadilaahmad16/tree/main/Dataset)_
