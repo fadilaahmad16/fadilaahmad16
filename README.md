@@ -1,21 +1,8 @@
-- 👋 Hi, I’m @fadilaahmad16
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+<h1 align='center'> Dashboard Informasi Indeks Pembangunan Manusia Di Indonesia Tahun 2016-2020</h1>
 
-# Fadila Ahmad
-halooo
-## Tanggal Lahir
-16 Maret 1999
-## Jenis Kelamin
-Laki-Laki
-
-
-<p>
-  <img width="250" align='left' src="https://github.com/WaylonWalker/WaylonWalker/blob/main/icon/hacktoberfest.png?raw=true">
-</p>
-<!---
-fadilaahmad16/fadilaahmad16 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## Data
+Data yang digunakan dalam pembuatan Dashboard Informasi Indeks Pembangunan Manusia di Indonesia Tahun 2016-2020 adalah data yang berasal dari website resmi Badan Pusat Statistik (BPS). Data-data tersebut antara lain :
+* [Indeks Pembangunan Manusia Tahun 2016-2020](https://bps.go.id/indicator/26/413/1/-metode-baru-indeks-pembangunan-manusia.html)
+* [Umur Harapan Hidup Saat Lahir Tahun 2016-2020](https://bps.go.id/indicator/26/414/1/-metode-baru-umur-harapan-hidup-saat-lahir-uhh-.html)
+* [Harapan Lama Sekolah Tahun 2016-2020](https://bps.go.id/indicator/26/417/1/-metode-baru-harapan-lama-sekolah.html)
+* [Rata-Rata Lama Sekolah Tahun 2016-2020](https://bps.go.id/indicator/26/415/1/-metode-baru-rata-rata-lama-sekolah.html)
