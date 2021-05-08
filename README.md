@@ -34,4 +34,13 @@ Dataset memiliki 6 kolom berupa :
 - `Provinsi/Kabupten/Kota`: Keterangan masing-masing wilayah di Indoensia baik itu tingkat provinsi, kabupaten, maupun kota.
 - `Tahun [5 kolom]`: Isian data dari masing-masing dimensi untuk tahun 2016, 2017, 2018, 2019, dan 2020.
 
+Contoh :
+| Provinsi/Kabupaten/Kota  | 2020 | 2019 | 2018 | 2017 | 2016 |
+| ------------------------ | ---- | ---- | ---- | ---- | ---- |
+| ***Aceh***               | 9492 | 9603 | 9186 | 8957 | 8768 |
+| Simeulue                 | 7085 | 7210 | 6824 | 6676 | 6542 |
+| Aceh Singkil             | 8707 | 8715 | 8506 | 8230 | 8068 |
+| Aceh Selatan             | 8089 | 8187 | 7891 | 7567 | 7397 |
+| ............             | .... | .... | .... | .... | .... |
+
 _Data tersebut dapat didownload pada folder [Dataset](https://github.com/fadilaahmad16/fadilaahmad16/tree/main/Dataset)_
