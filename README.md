@@ -18,6 +18,9 @@ Manfaat yang diperolah dari IPM :
 </ol>
 
 
+## Latar Belakang
+
+
 
 ## Data
 Data yang digunakan dalam pembuatan Dashboard Informasi Indeks Pembangunan Manusia di Indonesia Tahun 2016-2020 diperoleh dari situs resmi Badan Pusat Statistik (BPS). Data yang diperoleh dari website tersebut berupa file excel untuk beberapa tahun yang kemudian digabung menjadi satu dari tahun 2016 - 2020. Data-data tersebut antara lain :
