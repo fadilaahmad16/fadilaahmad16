@@ -19,6 +19,7 @@ Manfaat yang diperolah dari IPM :
 
 
 ## Latar Belakang
+Untuk melihat perkembangan pembangunan di suatu negara banyak sekali indikatornya. Salah satu yang bisa digunakan adalah Indeks Pembangunan Manusia (IPM). Di Indonesia indikator ini juga digunakan untuk mengevaluasi kinerja pemerintah dan sebagai sasaran target pembangunan nasional.
 
 
 
