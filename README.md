@@ -35,7 +35,7 @@ Dataset memiliki 6 kolom berupa :
 - `Tahun [5 kolom]`: Isian data dari masing-masing dimensi untuk tahun 2016, 2017, 2018, 2019, dan 2020.
 
 Contoh :
-| Provinsi/Kabupaten/Kota  | 2020 | 2019 | 2018 | 2017 | 2016 |
+| `Provinsi/Kabupaten/Kota`  | `2020` | `2019` | `2018` | `2017` | `2016` |
 | ------------------------ | ---- | ---- | ---- | ---- | ---- |
 | ***Aceh***               | 9492 | 9603 | 9186 | 8957 | 8768 |
 | Simeulue                 | 7085 | 7210 | 6824 | 6676 | 6542 |
