@@ -10,13 +10,33 @@ IPM dibentuk oleh tiga dimensi dasar :
 * Pengetahuan
 * Standar hidup layak
 
+Cara menghitung IPM :
+- Dimensi Kesehatan
+<br></br>
+   <a href="https://www.codecogs.com/eqnedit.php?latex=I_{kesehatan}=&space;\frac{AHH-&space;AHH_{min}}{AHH_{maks}-&space;AHH_{min}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?I_{kesehatan}=&space;\frac{AHH-&space;AHH_{min}}{AHH_{maks}-&space;AHH_{min}}" title="I_{kesehatan}= \frac{AHH- AHH_{min}}{AHH_{maks}- AHH_{min}}" /></a>
+  
+- Dimensi Pendidikan
+<br></br>
+   <a href="https://www.codecogs.com/eqnedit.php?latex=I_{HLS}=&space;\frac{HLS-&space;HLS_{min}}{HLS_{maks}-&space;HLS_{min}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?I_{HLS}=&space;\frac{HLS-&space;HLS_{min}}{HLS_{maks}-&space;HLS_{min}}" title="I_{HLS}= \frac{HLS- HLS_{min}}{HLS_{maks}- HLS_{min}}" /></a>
+<br></br>
+   <a href="https://www.codecogs.com/eqnedit.php?latex=I_{RLS}=&space;\frac{RLS-&space;RLS_{min}}{RLS_{maks}-&space;RLS_{min}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?I_{RLS}=&space;\frac{RLS-&space;RLS_{min}}{RLS_{maks}-&space;RLS_{min}}" title="I_{RLS}= \frac{RLS- RLS_{min}}{RLS_{maks}- RLS_{min}}" /></a>
+<br></br>
+   <a href="https://www.codecogs.com/eqnedit.php?latex=I_{pendidikan}=\frac{I{HLS}-&space;I_{RLS}}{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?I_{pendidikan}=\frac{I{HLS}-&space;I_{RLS}}{2}" title="I_{pendidikan}=\frac{I{HLS}- I_{RLS}}{2}" /></a>
+
+- Dimensi Pengeluaran
+<br></br>
+   <a href="https://www.codecogs.com/eqnedit.php?latex=I_{pengeluaran}=&space;\frac{ln(pengeluaran)-&space;ln(pengeluaran_{min})}{ln(pengeluaran_{maks})-&space;ln(pengeluaran_{min})}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?I_{pengeluaran}=&space;\frac{ln(pengeluaran)-&space;ln(pengeluaran_{min})}{ln(pengeluaran_{maks})-&space;ln(pengeluaran_{min})}" title="I_{pengeluaran}= \frac{ln(pengeluaran)- ln(pengeluaran_{min})}{ln(pengeluaran_{maks})- ln(pengeluaran_{min})}" /></a>
+   
+IPM dihitung sebagai rata-rata geometrik dari indeks kesehatan, pendidikan, dan pengeluaran.
+<br></br>
+   <a href="https://www.codecogs.com/eqnedit.php?latex=IPM=\sqrt[3]{I_{kesehatan}\times&space;I_{pendidikan}\times&space;I_{pengeluaran}&space;}&space;\times&space;100" target="_blank"><img src="https://latex.codecogs.com/gif.latex?IPM=\sqrt[3]{I_{kesehatan}\times&space;I_{pendidikan}\times&space;I_{pengeluaran}&space;}&space;\times&space;100" title="IPM=\sqrt[3]{I_{kesehatan}\times I_{pendidikan}\times I_{pengeluaran} } \times 100" /></a>
+
 Manfaat yang diperolah dari IPM :
 <ol>
   <li>IPM merupakan indikator penting untuk mengukur keberhasilan dalam upaya membangun kualitas hidup manusia (masyarakat/penduduk).</li>
   <li>IPM dapat menentukan peringkat atau level pembangunan suatu wilayah/negara.</li>
   <li>Bagi Indonesia, IPM merupakan data strategis karena selain sebagai ukuran kinerja Pemerintah, IPM juga digunakan sebagai salah satu alokator penentuan Dana Alokasi Umum (DAU).</li>
 </ol>
-
 
 ## Latar Belakang
 Untuk melihat perkembangan pembangunan di suatu negara banyak sekali indikatornya. Salah satu yang bisa digunakan adalah Indeks Pembangunan Manusia (IPM). Di Indonesia indikator ini juga digunakan untuk mengevaluasi kinerja pemerintah dan sebagai sasaran target pembangunan nasional.
