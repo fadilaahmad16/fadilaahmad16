@@ -113,22 +113,45 @@ Dalam melakukan visualisasi data, tahapan yang dilakukan :
 ### 1. Worksheet Persebaran Indeks Pembangunan Manusia
 <p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Dalam worksheet ini, nilai IPM divisualisasikan dengan simbol maps dimana simbol yang digunakan adalah warna, semakin tinggi konsentrasi warnanya semakin tinggi nilai IPM di tiap provinsinya. Apabila kursor diarahkan ke tiap provinsinya akan terdapat label text berupa nilai IPM, HLS, UHH, dan PPP provinsi yang ditunjuk. Seperti yang ditampilkan pada Gambar 1. </p>
 
+  ![maps](/img/maps.png)
+
 ### 2. Worksheet Indeks Komponen IPM
 <p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Dalam worksheet ini, nilai komponen pembangun IPM divisualisasikan dengan horizontal bar. Komponen pembangun IPM ( Indeks Kesehatan, Indeks Pendidikan, dan Indeks pengeluaran) didapatkan dari rumus menghitung IPM.</p>
+- Indeks Kesehatan
+<br></br>
+  <img src="https://latex.codecogs.com/png.latex?\dpi{100}&space;\fn_phv&space;\mathbf{I_{kesehatan}&space;=&space;\frac{AHH-AHH_{min}}{AHH_{maks}-AHH_{min}}}" title="\mathbf{I_{kesehatan} = \frac{AHH-AHH_{min}}{AHH_{maks}-AHH_{min}}}" />
+- Indeks Pendidikan
+<br></br>
+  <img src="https://latex.codecogs.com/png.latex?\dpi{100}&space;\fn_phv&space;\mathbf{I_{HLS}&space;=&space;\frac{HLS-HLS_{min}}{HLS_{maks}-HLS_{min}}}" title="\mathbf{I_{HLS} = \frac{HLS-HLS_{min}}{HLS_{maks}-HLS_{min}}}" /> 
+  <img src="https://latex.codecogs.com/png.latex?\dpi{100}&space;\fn_phv&space;\mathbf{I_{RLS}&space;=&space;\frac{RLS-RLS_{min}}{RLS_{maks}-RLS_{min}}}" title="\mathbf{I_{RLS} = \frac{RLS-RLS_{min}}{RLS_{maks}-RLS_{min}}}" /> 
+  <img src="https://latex.codecogs.com/png.latex?\dpi{100}&space;\fn_phv&space;\mathbf{I_{pendidikan}&space;=&space;\frac{I_{HLS}-I_{RLS}}{2}}" title="\mathbf{I_{pendidikan} = \frac{I_{HLS}-I_{RLS}}{2}}" />
+- Indeks Pengeluaran
+<br></br>
+   <img src="https://latex.codecogs.com/png.latex?\dpi{100}&space;\fn_phv&space;\mathbf{I_{pengeluaran}&space;=&space;\frac{ln(pengeluaran)-ln(pengeluaran_{min})}{ln(pengeluaran_{maks})-ln(pengeluaran_{min})}}" title="\mathbf{I_{pengeluaran} = \frac{ln(pengeluaran)-ln(pengeluaran_{min})}{ln(pengeluaran_{maks})-ln(pengeluaran_{min})}}" />
 
 Visualisasinya ditampilkan pada Gambar 2.</p>
+
+  ![maps](/img/komponen.png)
 
 ### 3. Worksheet IPM 2016-2017
 <p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Dalam worksheet ini, nilai IPM di visualisasikan dengan line chart, dimana menampilkan data time series nilai IPM dari tahun 2016-2017. Visualisasinya ditampilkan pada Gambar 3.</p>
 
+  ![IPM](/img/IPM.png)
+  
 ### 4. Worksheet bar chart IPM
 <p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Dalam worksheet ini, nilai IPM di visualisasikan dengan bar chart dimana menampilkan nilai IPM tiap wilayah yang dapat diurutkan berdasarkan urutan nama wilayah atau urutan nilai IPM. Visualisasinya dapat dilihat pada Gambar 4.</p>
 
+  ![line chart](/img/line.png)
+  
 ### 5. Worksheet Nilai UHH, HLS, IPM, PPP
 <p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Dalam worksheet ini, nilai setiap komponen divisualisasikan dengan text tabel dimana menampilkan nilai nyata setiap komponen pada tahun dan wilayah yang dipilih. Visualisasinya dapat dilihat pada Gambar 5.</p>
 
+  ![Nilai](/img/text.png)
+
 ## C. Analisis Visualisasi
 <p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Untuk mendapatkan hasil dari gabungan beberapa worksheet, agar lembar kerja bekerja secara optimal terhadap data yang digunakan langkah selanjutnya memindahkan semua worksheet ke dalam dashboard. Setiap tampilan yang ditambahkan ke dashboard terhubung ke lembar kerja yang sesuai. Berikut tampilan dashboard yang sudah disesuaikan.</p>
+  
+  <img src="img/Dashboard 2.png">
 
 ## D. Web dashboard visualisasi
 Dashboard yang sudah dibuat ditampilkan dalam sebuah aplikasi web. Disini kami menggunakan aplikasi tableau public. Link dashboard dapat ditemukan
