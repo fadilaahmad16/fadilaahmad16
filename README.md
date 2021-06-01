@@ -162,6 +162,7 @@ Cara kerja menampilkan data pada dashboard IPM :
 2. Kemudian, pilih wilayah yang ingin ditampilkan, dimana wilayah yang tersedia berupa 3. Indonesia serta provinsi yang ada di indonesia.
 
 <h2 align='center'>BAB 5 <br/> PENUTUP </h2>
+
 ## A. Kesimpulan
 <p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Kesimpulan yang dapat ditarik dari study ini adalah : </p>
 1. Dasboard IPM ini dapat memberikan visualisasi atau gambaran bagaimana IPM Indonesia baik secara keseluruhan atau tiap provinsi/kab/kota tahun 2016-2017
