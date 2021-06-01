@@ -59,5 +59,127 @@ Tujuan yang ingin dihasilkan dari adanya Dashboard Informasi Indeks Pembangunan 
 ## C. Perancangan
 <p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Perancangan dilakukan untuk merancang dashboard yang akan dibangun sehingga dapat diperoleh gambaran detail dashboard yang akan dibangun. Hasil dari perancangan dashboard ini berupa sebuah desain mock up. Desain mockup ini memberikan gambaran umum tentang visualisasi apa saja yang akan digunakan nantinya dalam pengaplikasiannya nyatanya.</p>
 
-## D Implementasi
+## D. Implementasi
 <p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Implementasi visualisasi data dilakukan dengan membuat dashboard untuk membantu memberikan informasi terkait Indeks Pembangunan Manusia beserta komponen pendukungnya di seluruh wilayah indonesia.</p>
+
+<h2 align='center'>BAB 4 <br/> HASIL DAN PEMBAHASAN </h2>
+
+## A. Pengumpulan Data
+
+### 1. Data
+<p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Data indeks pembangunan manusia yang digunakan pada penelitian ini merupakan penggabungan data Indeks Pembangunan Manusia dan data-data komponen penyusunnya yang diambil dari website resmi Badan Pusat Statistik. Data yang digunakan dalam penelitian ini dapat dilihat pada Tabel 1.</p>
+
+| No | Nama |
+| -- | ---------------------------------------------------------------- |
+| 1 | [Indeks Pembangunan Manusia menurut Provinsi Tahun 2016-2020](https://bps.go.id/indicator/26/413/1/-metode-baru-indeks-pembangunan-manusia.html)| 
+| 2 | [Harapan Lama Sekolah Tahun 2016-2020](https://bps.go.id/indicator/26/417/1/-metode-baru-harapan-lama-sekolah.html) |
+| 3 | [Rata-Rata Lama Sekolah Tahun 2016-2020](https://bps.go.id/indicator/26/415/1/-metode-baru-rata-rata-lama-sekolah.html) |
+| 4 | [Umur Harapan Hidup Saat Lahir Tahun 2016-2020](https://bps.go.id/indicator/26/414/1/-metode-baru-umur-harapan-hidup-saat-lahir-uhh-.html) |
+| 5 | [Pengeluaran Perkapita Disesuaikan Tahun 2016-2020](https://bps.go.id/indicator/26/416/1/-metode-baru-pengeluaran-per-kapita-disesuaikan.html) |
+
+### 2. Pengelompokan Data
+<p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Data yang telah dikumpulkan akan digabungkan ke dalam satu file excel. Hal ini dilakukan bertujuan untuk memudahkan untuk melakukan filter tahun pada visualisasi dashboard yang akan dibuat nantinya. Penggabungan data dapat dilihat pada Tabel 2. </p>
+
+| Atribut | Keterangan |
+| -------- | --------------------------------------------------------- |
+| prov.kab.kota | Mencangkup nama Provinsi, Kab/Kota di Indonesia |
+| UHH | Umur Harapan Hidup |
+| HLS | Harapan Lama Sekolah |
+| RLS | Rata-rata Lama Sekolah |
+| PPP | Pengeluaran Perkapita Disesuaikan |
+| IPM | Indeks Pembangunan Manusia |
+| Tahun | - |
+| Wilayah | Indonesia untuk provinsi, dan nama provinsi untuk Kab/Kota |
+
+### 3. Cleaning Data
+<p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Pada data ini tidak dilakukan cleaning data karena data yang didapat tidak terdapat missing value dan anomali-anomali data sehingga dapat secara langsung digunakan. </p>
+
+## B. Visualisasi Data
+<p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Visualisasi data merupakan tahapan dimana data diubah dan disajikan dalam bentuk model visual dasar, seperti grafik batang, daftar, atau pohon. Hal yang paling penting pada tahapan ini yaitu alasan dan tujuan bentuk visual yang dipilih harus diketahui. Alasan dan tujuan dipilihnya bentuk diagram spesifik disesuaikan dengan kebutuhan informasinya. Untuk pemetaannya dapat dilihat pada Tabel 3. </p>
+
+| Kebutuhan Informasi | Diagram |
+| ---------------------------------------------------------- | --------- |
+| Persebaran nilai IPM di seluruh Indonesia | Symbol maps |
+| Melihat time series dari nilai IPM  | Line chart |
+| Melihat perbandingan nilai IPM antar wilayah | Bar chart |
+| Melihat perbandingan komponen pembangun IPM antar wilayah | Bar chart |
+| Informasi nilai IPM, UHH, PPP, HLS tiap daerah | Text tabel |
+
+Dalam melakukan visualisasi data, tahapan yang dilakukan : 
+* Melakukan koneksi dengan file microsoft excel. 
+* Menyiapkan worksheet yang akan digunakan
+* Mendesain dashboard dari worksheet yang telah dibuat. Dalam mevisualisasikan data di dashboard menggunakan action yang menghubungkan dari semua worksheet. 
+
+### 1. Worksheet Persebaran Indeks Pembangunan Manusia
+<p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Dalam worksheet ini, nilai IPM divisualisasikan dengan simbol maps dimana simbol yang digunakan adalah warna, semakin tinggi konsentrasi warnanya semakin tinggi nilai IPM di tiap provinsinya. Apabila kursor diarahkan ke tiap provinsinya akan terdapat label text berupa nilai IPM, HLS, UHH, dan PPP provinsi yang ditunjuk. Seperti yang ditampilkan pada Gambar 1. </p>
+
+  ![maps](/img/maps.png)
+
+### 2. Worksheet Indeks Komponen IPM
+<p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Dalam worksheet ini, nilai komponen pembangun IPM divisualisasikan dengan horizontal bar. Komponen pembangun IPM ( Indeks Kesehatan, Indeks Pendidikan, dan Indeks pengeluaran) didapatkan dari rumus menghitung IPM.</p>
+- Indeks Kesehatan
+<br></br>
+  <img src="https://latex.codecogs.com/png.latex?\dpi{100}&space;\fn_phv&space;\mathbf{I_{kesehatan}&space;=&space;\frac{AHH-AHH_{min}}{AHH_{maks}-AHH_{min}}}" title="\mathbf{I_{kesehatan} = \frac{AHH-AHH_{min}}{AHH_{maks}-AHH_{min}}}" />
+- Indeks Pendidikan
+<br></br>
+  <img src="https://latex.codecogs.com/png.latex?\dpi{100}&space;\fn_phv&space;\mathbf{I_{HLS}&space;=&space;\frac{HLS-HLS_{min}}{HLS_{maks}-HLS_{min}}}" title="\mathbf{I_{HLS} = \frac{HLS-HLS_{min}}{HLS_{maks}-HLS_{min}}}" /> 
+  <img src="https://latex.codecogs.com/png.latex?\dpi{100}&space;\fn_phv&space;\mathbf{I_{RLS}&space;=&space;\frac{RLS-RLS_{min}}{RLS_{maks}-RLS_{min}}}" title="\mathbf{I_{RLS} = \frac{RLS-RLS_{min}}{RLS_{maks}-RLS_{min}}}" /> 
+  <img src="https://latex.codecogs.com/png.latex?\dpi{100}&space;\fn_phv&space;\mathbf{I_{pendidikan}&space;=&space;\frac{I_{HLS}-I_{RLS}}{2}}" title="\mathbf{I_{pendidikan} = \frac{I_{HLS}-I_{RLS}}{2}}" />
+- Indeks Pengeluaran
+<br></br>
+   <img src="https://latex.codecogs.com/png.latex?\dpi{100}&space;\fn_phv&space;\mathbf{I_{pengeluaran}&space;=&space;\frac{ln(pengeluaran)-ln(pengeluaran_{min})}{ln(pengeluaran_{maks})-ln(pengeluaran_{min})}}" title="\mathbf{I_{pengeluaran} = \frac{ln(pengeluaran)-ln(pengeluaran_{min})}{ln(pengeluaran_{maks})-ln(pengeluaran_{min})}}" />
+
+Visualisasinya ditampilkan pada Gambar 2.</p>
+
+  ![maps](/img/komponen.png)
+
+### 3. Worksheet IPM 2016-2017
+<p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Dalam worksheet ini, nilai IPM di visualisasikan dengan line chart, dimana menampilkan data time series nilai IPM dari tahun 2016-2017. Visualisasinya ditampilkan pada Gambar 3.</p>
+
+  ![IPM](/img/IPM.png)
+  
+### 4. Worksheet bar chart IPM
+<p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Dalam worksheet ini, nilai IPM di visualisasikan dengan bar chart dimana menampilkan nilai IPM tiap wilayah yang dapat diurutkan berdasarkan urutan nama wilayah atau urutan nilai IPM. Visualisasinya dapat dilihat pada Gambar 4.</p>
+
+  ![line chart](/img/line.png)
+  
+### 5. Worksheet Nilai UHH, HLS, IPM, PPP
+<p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Dalam worksheet ini, nilai setiap komponen divisualisasikan dengan text tabel dimana menampilkan nilai nyata setiap komponen pada tahun dan wilayah yang dipilih. Visualisasinya dapat dilihat pada Gambar 5.</p>
+
+  ![Nilai](/img/text.png)
+
+## C. Analisis Visualisasi
+<p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Untuk mendapatkan hasil dari gabungan beberapa worksheet, agar lembar kerja bekerja secara optimal terhadap data yang digunakan langkah selanjutnya memindahkan semua worksheet ke dalam dashboard. Setiap tampilan yang ditambahkan ke dashboard terhubung ke lembar kerja yang sesuai. Berikut tampilan dashboard yang sudah disesuaikan.</p>
+  
+  <img src="img/Dashboard 2.png">
+
+## D. Web dashboard visualisasi
+Dashboard yang sudah dibuat ditampilkan dalam sebuah aplikasi web. Disini kami menggunakan aplikasi tableau public. Link dashboard dapat ditemukan
+ [disini](https://public.tableau.com/views/DashboardIPM/Dashboard2?:language=en&:display_count=y&publish=yes&:toolbar=n&:origin=viz_share_link "Dashboard IPM Kelompok 3").
+<br></br>
+Cara kerja menampilkan data pada dashboard IPM :
+1. Pilih tahun yang ingin ditampilkan
+2. Kemudian, pilih wilayah yang ingin ditampilkan, dimana wilayah yang tersedia berupa 3. Indonesia serta provinsi yang ada di indonesia.
+
+<h2 align='center'>BAB 5 <br/> PENUTUP </h2>
+## A. Kesimpulan
+<p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Kesimpulan yang dapat ditarik dari study ini adalah : </p>
+1. Dasboard IPM ini dapat memberikan visualisasi atau gambaran bagaimana IPM Indonesia baik secara keseluruhan atau tiap provinsi/kab/kota tahun 2016-2017
+2. Dashboard IPM ini mampu memberikan gambaran apakah suatu wilayah sudah berhasil dalam bidang pembangunan manusia
+3. Dashboard IPM ini memberikan gambaran bagaimana indeks komponen pembangun IPM disetiap wilayah.
+
+## B. Saran
+<p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Saran pengembangan untuk visualisasi data IPM di masa yang akan datang adalah : </p>
+1. Dasboard dapat menggunakan data dan informasi dalam rentang waktu yang lebih besar
+2. Dashboard tidak hanya ditampilkan dalam bentuk web tetapi dapat ditampilkan dalam sebuah aplikasi yang kompleks tentang IPM
+
+<h2 align='center'> DAFTAR PUSTAKA </h2>
+
+# About Us
+Kelompok 3 / 3SD2 Politeknik Statistika STIS </br>
+- Fadila Ahmad ( 221810278@stis.ac.id )
+- Hanif Muhammad Sofi ( 221709729@stis.ac.id )
+- Lukman Dary Ilyasa ( 221810392@stis.ac.id )
+- Nabila Bianca Putri ( 221810484@stis.ac.id )
+- Nissa Silvianna Devi Nur Afni ( 221810502@stis.ac.id )
+- Yulia Aryani ( 221810672@stis.ac.id )
