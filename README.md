@@ -180,6 +180,7 @@ Cara kerja menampilkan data pada dashboard IPM :
  <ol>
    <li>Abduldaem, Asmaa. Andy Gravell. (2019). Principles For The Design And Development Of Dashboards: Literature Review. INTCESS 6th International Conference on Education and Social Sciences. Diakses 25 Mei 2021.</li>
    <li></li>
+</ol>
 </p>
 
 # About Us
