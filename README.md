@@ -62,6 +62,8 @@ Tujuan yang ingin dihasilkan dari adanya Dashboard Informasi Indeks Pembangunan 
 ## D. Implementasi
 <p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Implementasi visualisasi data dilakukan dengan membuat dashboard untuk membantu memberikan informasi terkait Indeks Pembangunan Manusia beserta komponen pendukungnya di seluruh wilayah indonesia.</p>
 
+<br></br>
+
 <h2 align='center'>BAB 4 <br/> HASIL DAN PEMBAHASAN </h2>
 
 ## A. Pengumpulan Data
@@ -161,6 +163,8 @@ Cara kerja menampilkan data pada dashboard IPM :
 1. Pilih tahun yang ingin ditampilkan
 2. Kemudian, pilih wilayah yang ingin ditampilkan, dimana wilayah yang tersedia berupa 3. Indonesia serta provinsi yang ada di indonesia.
 
+<br></br>
+
 <h2 align='center'>BAB 5 <br/> PENUTUP </h2>
 
 ## A. Kesimpulan
@@ -173,6 +177,8 @@ Cara kerja menampilkan data pada dashboard IPM :
 <p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Saran pengembangan untuk visualisasi data IPM di masa yang akan datang adalah : </p>
 1. Dasboard dapat menggunakan data dan informasi dalam rentang waktu yang lebih besar
 2. Dashboard tidak hanya ditampilkan dalam bentuk web tetapi dapat ditampilkan dalam sebuah aplikasi yang kompleks tentang IPM
+
+<br></br>
 
 <h2 align='center'> DAFTAR PUSTAKA </h2>
 
