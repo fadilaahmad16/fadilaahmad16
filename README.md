@@ -189,6 +189,8 @@ Cara kerja menampilkan data pada dashboard IPM :
 </ol>
 </p>
 
+<br></br>
+
 # About Us
 Kelompok 3 / 3SD2 Politeknik Statistika STIS </br>
 - Fadila Ahmad ( 221810278@stis.ac.id )
