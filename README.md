@@ -160,3 +160,26 @@ Dashboard yang sudah dibuat ditampilkan dalam sebuah aplikasi web. Disini kami m
 Cara kerja menampilkan data pada dashboard IPM :
 1. Pilih tahun yang ingin ditampilkan
 2. Kemudian, pilih wilayah yang ingin ditampilkan, dimana wilayah yang tersedia berupa 3. Indonesia serta provinsi yang ada di indonesia.
+
+<h2 align='center'>BAB 5 <br/> PENUTUP </h2>
+## A. Kesimpulan
+<p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Kesimpulan yang dapat ditarik dari study ini adalah : </p>
+1. Dasboard IPM ini dapat memberikan visualisasi atau gambaran bagaimana IPM Indonesia baik secara keseluruhan atau tiap provinsi/kab/kota tahun 2016-2017
+2. Dashboard IPM ini mampu memberikan gambaran apakah suatu wilayah sudah berhasil dalam bidang pembangunan manusia
+3. Dashboard IPM ini memberikan gambaran bagaimana indeks komponen pembangun IPM disetiap wilayah.
+
+## B. Saran
+<p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Saran pengembangan untuk visualisasi data IPM di masa yang akan datang adalah : </p>
+1. Dasboard dapat menggunakan data dan informasi dalam rentang waktu yang lebih besar
+2. Dashboard tidak hanya ditampilkan dalam bentuk web tetapi dapat ditampilkan dalam sebuah aplikasi yang kompleks tentang IPM
+
+<h2 align='center'> DAFTAR PUSTAKA </h2>
+
+# About Us
+Kelompok 3 / 3SD2 Politeknik Statistika STIS </br>
+- Fadila Ahmad ( 221810278@stis.ac.id )
+- Hanif Muhammad Sofi ( 221709729@stis.ac.id )
+- Lukman Dary Ilyasa ( 221810392@stis.ac.id )
+- Nabila Bianca Putri ( 221810484@stis.ac.id )
+- Nissa Silvianna Devi Nur Afni ( 221810502@stis.ac.id )
+- Yulia Aryani ( 221810672@stis.ac.id )
