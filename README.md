@@ -136,12 +136,12 @@ Visualisasinya ditampilkan pada Gambar 2.</p>
   ![maps](/img/komponen.png)
 
 ### 3. Worksheet IPM 2016-2017
-<p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Dalam worksheet ini, nilai IPM di visualisasikan dengan line chart, dimana menampilkan data time series nilai IPM dari tahun 2016-2017. Visualisasinya ditampilkan pada Gambar 3.</p>
+<p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Dalam worksheet ini, nilai IPM di visualisasikan dengan bar chart dimana menampilkan nilai IPM tiap wilayah yang dapat diurutkan berdasarkan urutan nama wilayah atau urutan nilai IPM. Visualisasinya ditampilkan pada Gambar 3.</p>
 
   ![IPM](/img/IPM.png)
   
 ### 4. Worksheet bar chart IPM
-<p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Dalam worksheet ini, nilai IPM di visualisasikan dengan bar chart dimana menampilkan nilai IPM tiap wilayah yang dapat diurutkan berdasarkan urutan nama wilayah atau urutan nilai IPM. Visualisasinya dapat dilihat pada Gambar 4.</p>
+<p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Dalam worksheet ini, nilai IPM di visualisasikan dengan line chart, dimana menampilkan data time series nilai IPM dari tahun 2016-2017. Visualisasinya dapat dilihat pada Gambar 4.</p>
 
   ![line chart](/img/line.png)
   
