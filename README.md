@@ -169,14 +169,18 @@ Cara kerja menampilkan data pada dashboard IPM :
 
 ## A. Kesimpulan
 <p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Kesimpulan yang dapat ditarik dari study ini adalah : </p>
-1. Dasboard IPM ini dapat memberikan visualisasi atau gambaran bagaimana IPM Indonesia baik secara keseluruhan atau tiap provinsi/kab/kota tahun 2016-2017
-2. Dashboard IPM ini mampu memberikan gambaran apakah suatu wilayah sudah berhasil dalam bidang pembangunan manusia
-3. Dashboard IPM ini memberikan gambaran bagaimana indeks komponen pembangun IPM disetiap wilayah.
+<ol>
+  <li>Dasboard IPM ini dapat memberikan visualisasi atau gambaran bagaimana IPM Indonesia baik secara keseluruhan atau tiap provinsi/kab/kota tahun 2016-2017.</li>
+  <li>Dashboard IPM ini mampu memberikan gambaran apakah suatu wilayah sudah berhasil dalam bidang pembangunan manusia.</li>
+  <li>Dashboard IPM ini memberikan gambaran bagaimana indeks komponen pembangun IPM disetiap wilayah.</li>
+</ol>
 
 ## B. Saran
 <p align='justify'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Saran pengembangan untuk visualisasi data IPM di masa yang akan datang adalah : </p>
-1. Dasboard dapat menggunakan data dan informasi dalam rentang waktu yang lebih besar
-2. Dashboard tidak hanya ditampilkan dalam bentuk web tetapi dapat ditampilkan dalam sebuah aplikasi yang kompleks tentang IPM
+<ol>
+  <li>Dasboard dapat menggunakan data dan informasi dalam rentang waktu yang lebih besar.</li>
+  <li>Dashboard tidak hanya ditampilkan dalam bentuk web tetapi dapat ditampilkan dalam sebuah aplikasi yang kompleks tentang IPM.</li>
+</ol>
 
 <br></br>
 
